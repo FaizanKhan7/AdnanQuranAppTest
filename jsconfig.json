@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "~images/*": ["./app/view/theme/images/*"],
+      "~fonts/*": ["./app/view/theme/fonts/*"],
+      "@view/*": ["./app/view/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

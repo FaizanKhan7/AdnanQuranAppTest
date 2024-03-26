@@ -5,13 +5,17 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "metro": "react-native start --reset-cache",
+    "pod": "cd ios && pod install",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.73.1"
+    "react-native": "0.73.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-track-player": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
